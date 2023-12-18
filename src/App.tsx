@@ -9,11 +9,11 @@ function App() {
     const router = createBrowserRouter(
         [
             {
-                path: "/login",
+                path: "/naiu/login",
                 element: <Login />,
             },
             {
-                path: "/home",
+                path: "/naiu/home",
                 element: <PrivateRoute>
                     <Home />
                 </PrivateRoute>
